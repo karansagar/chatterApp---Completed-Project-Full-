@@ -16,6 +16,13 @@ class WelcomeViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        printTimestamp()
+    }
+    
+    func printTimestamp() {
+        let timestamp = DateFormatter.localizedString(from: NSDate() as Date, dateStyle: .medium, timeStyle: .short)
+        print(timestamp)
     }
     
 
