@@ -237,7 +237,7 @@
                                 <rect key="frame" x="55" y="375" width="304" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -259,6 +259,6 @@
         <image name="images" width="376" height="815"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="nOk-Zp-0fO"/>
+        <segue reference="PyG-by-V41"/>
     </inferredMetricsTieBreakers>
 </document>
