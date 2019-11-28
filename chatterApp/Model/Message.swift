@@ -6,4 +6,12 @@
 //  Copyright © 2019 Karan. All rights reserved.
 //
 
-import Foundation
+class Message {
+    
+    //TODO:- Message needs a messageBody & sender variable
+
+    // Create 2 property with string data type ; Completed Model Class ; which will hold and represent our messages. 
+    var sender: String  = " "
+    var messageBody: String = " "
+    
+}
